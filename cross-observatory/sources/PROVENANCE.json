@@ -1,26 +1,25 @@
 {
  "generated_utc": "2026-07-04T13:57:34.848793+00:00",
- "discipline": "Link, but Never Fuse — sources are snapshotted read-only with provenance; not merged into the procurement dataset",
+ "discipline": "Link, but Never Fuse — sources snapshotted read-only with provenance; not merged into the procurement dataset",
  "sources": [
   {
-   "name": "rQSCD remote-QSCD supply census",
-   "origin": "/srv/tyche/idle-lab/aiact-eidas-supplygap/data/rqscd-census.tsv",
+   "name": "rQSCD remote-QSCD supply census (eIDAS qualified signature/seal services)",
+   "public_source": "EU Member State Trusted Lists (eIDAS)",
    "local": "sources/rqscd-census.tsv",
    "sha256": "2000a93e0daaa63054ec297011e8c7768a3429476fc0c649637e5316caa98e5e",
-   "note": "remote qualified signature/seal creation device services (eIDAS); supply side"
+   "role": "supply side"
   },
   {
-   "name": "obscure-ai reviewed-core incidents",
-   "origin": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/security/limen-reviewed-core-*.tsv",
+   "name": "AI incident and vulnerability catalogue",
+   "public_source": "Obscure AI observatory, https://obscure-ai.eatf.eu",
    "local": "sources/obscure-ai-incidents.tsv",
-   "sha256": "e69c4237cf419b15fd765c3c93852f60e8dbaa925aa2d3ae2dc11cc25a067286",
-   "note": "reviewed AI incident/vuln records; failure side"
+   "sha256": "ef90cbedbb8799da7cd37292fc69068b58a8d2eada69f092cd907f83742e2dd7",
+   "role": "failure side"
   },
   {
-   "name": "procurement observatory",
-   "origin": "../data/consolidated/dataset.json",
-   "sha256": "see dataset.json / Zenodo 10.5281/zenodo.21192405",
-   "note": "demand side"
+   "name": "Trust-Tech Procurement Observatory",
+   "public_source": "Zenodo 10.5281/zenodo.21192405",
+   "role": "demand side"
   }
  ]
 }
