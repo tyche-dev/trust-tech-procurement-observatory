@@ -8,7 +8,7 @@
     "Per-domain demand signal papers as data matures: 'What governments actually buy when they buy PQC' (US, phase 1-2 evidence); an eIDAS/QSCD procurement-demand piece linkable to the rQSCD strand.",
     "Route these through the normal referee + god-runner gate before any submission; PCI-RR-first reminder applies to any new study framing."
   ],
-  "observatory_site": "A static Observatory page (same pattern as obscure-ai.eatf.eu / pallas.eatf.eu — built deterministically from the frozen TSV/JSON, never from a live LLM). Every displayed number carries a provenance link back to source_url. Do NOT stand up a live-writing backend."
+  "observatory_site": "A static Observatory page (same pattern as obscure-ai.eatf.eu — built deterministically from the frozen TSV/JSON, never from a live LLM). Every displayed number carries a provenance link back to source_url. Do NOT stand up a live-writing backend."
 }
 ```
 
@@ -43,7 +43,7 @@
     },
     {
       "risk": "Future dates / placeholder domains",
-      "guard": "Linter hard-fails on date>harvest-date and on example.com/placeholder hosts (the exact tells from the LIMEN/aion fabrications)."
+      "guard": "Linter hard-fails on date>harvest-date and on example.com/placeholder hosts (the exact tells seen in prior fabricated datasets)."
     },
     {
       "risk": "Fabricated coverage / count numbers",
