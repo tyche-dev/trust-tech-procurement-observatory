@@ -1,0 +1,112 @@
+{
+ "pqc_matched_total": 50,
+ "pqc_confirmed_total": 24,
+ "pqc_candidate_only_total": 26,
+ "confirmed_by_region": {
+  "EU": 7,
+  "US": 17
+ },
+ "candidate_only_by_region": {
+  "EU": 26,
+  "US": 0
+ },
+ "method": "PQC-confirmed = a post-quantum term appears in the stored title or the raw upstream payload; PQC-candidate = matched a source full-text/keyword index but the retrievable text does not contain a confirming term.",
+ "confirmed_titles_sample": [
+  {
+   "region": "EU",
+   "title": "Romania – IT services: consulting, software development, Internet and support – Establishm"
+  },
+  {
+   "region": "EU",
+   "title": "Romania – IT services: consulting, software development, Internet and support – Establishm"
+  },
+  {
+   "region": "EU",
+   "title": "Germany – Software programming and consultancy services – Framework Agreement Direct Contr"
+  },
+  {
+   "region": "EU",
+   "title": "Germany – Software programming and consultancy services – Framework Agreement Direct Contr"
+  },
+  {
+   "region": "EU",
+   "title": "Spain – Telecommunications equipment and supplies – Suministro para la adquisición de sist"
+  },
+  {
+   "region": "EU",
+   "title": "Spain – Telecommunications equipment and supplies – Suministro para la adquisición de sist"
+  },
+  {
+   "region": "EU",
+   "title": "Germany – Research and development services and related consultancy services – Side-Channe"
+  },
+  {
+   "region": "US",
+   "title": "BPA CALL 2 TRUSTED INTERNET CONNECTIONS (TIC) 3.0 MODERNIZATION AND POST QUANTUM CRYPTOGRA"
+  },
+  {
+   "region": "US",
+   "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES - POST QUANTUM CRYPTOGRAPHY CALL O"
+  },
+  {
+   "region": "US",
+   "title": "INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY"
+  },
+  {
+   "region": "US",
+   "title": "SECURING TOMORROWS BATTLESPACE: ADVANCED MILITARY COMMUNICATIONS WITH POST-QUANTUM CRYPTOG"
+  },
+  {
+   "region": "US",
+   "title": "POST-QUANTUM CRYPTOGRAPHY TO ENCRYPT DATA AT REST AND DEFEND AGAINST HARVEST NOW DECRYPT L"
+  },
+  {
+   "region": "US",
+   "title": "NEXT-GEN DRONE COMMUNICATIONS: POST-QUANTUM CRYPTOGRAPHY BASED PROTOCOL FOR REDUCED TRAFFI"
+  },
+  {
+   "region": "US",
+   "title": "STRUCTURED DATA FOLDING WITH TRANSMUTATIONS: MIGRATION TO POST-QUANTUM CRYPTOGRAPHY AND BE"
+  },
+  {
+   "region": "US",
+   "title": "PROVIDE MEETING SPACE, SLEEPING ROOMS, AND AV EQUIPMENT AND SERVICES FOR THE FIFTH POST-QU"
+  },
+  {
+   "region": "US",
+   "title": "POST-QUANTUM CRYPTOGRAPHY PLATFORM"
+  },
+  {
+   "region": "US",
+   "title": "THIS A DELIVERY ORDER AGAINST NASA SEWP V FOR BRAND NAME QBT R&D POST QUANTUM CRYPTOGRAPHY"
+  },
+  {
+   "region": "US",
+   "title": "2(D), THIS IS A DIRECT 8(A) CONTRACT WITH RADIAL SOLUTIONS INC (RSI) TO PROVIDE QUANTUM DE"
+  },
+  {
+   "region": "US",
+   "title": "IGF::OT::IGF MANAGE REGISTRATION FOR POST QUANTUM CRYPTOGRAPHY (PQC) 18 CONFERENCE"
+  },
+  {
+   "region": "US",
+   "title": "T192-003-0068 SBIR PHASE I - QUASH - A QUANTUM SAFE BLOCKCHAIN"
+  },
+  {
+   "region": "US",
+   "title": "QUANTUM SAFE VOIP ON MOBILE DEVICE FOR OPERATIONAL COMMUNICATIONS"
+  },
+  {
+   "region": "US",
+   "title": "QUANTUM SAFE COMMUNICATIONS PLATFORM AND INTEGRATIONS"
+  },
+  {
+   "region": "US",
+   "title": "TECTIA QUANTUM SAFE EDITION SOFTWARE LICENSES."
+  },
+  {
+   "region": "US",
+   "title": "PIV AND FIPS 203-1 UPDATE SUPPORT SERVICES"
+  }
+ ]
+}
