@@ -1,0 +1,26 @@
+{
+ "generated_utc": "2026-07-04T13:57:34.848793+00:00",
+ "discipline": "Link, but Never Fuse — sources are snapshotted read-only with provenance; not merged into the procurement dataset",
+ "sources": [
+  {
+   "name": "rQSCD remote-QSCD supply census",
+   "origin": "/srv/tyche/idle-lab/aiact-eidas-supplygap/data/rqscd-census.tsv",
+   "local": "sources/rqscd-census.tsv",
+   "sha256": "2000a93e0daaa63054ec297011e8c7768a3429476fc0c649637e5316caa98e5e",
+   "note": "remote qualified signature/seal creation device services (eIDAS); supply side"
+  },
+  {
+   "name": "obscure-ai reviewed-core incidents",
+   "origin": "/srv/tyche/projects/limen-ai-edge-case-atlas/results/security/limen-reviewed-core-*.tsv",
+   "local": "sources/obscure-ai-incidents.tsv",
+   "sha256": "e69c4237cf419b15fd765c3c93852f60e8dbaa925aa2d3ae2dc11cc25a067286",
+   "note": "reviewed AI incident/vuln records; failure side"
+  },
+  {
+   "name": "procurement observatory",
+   "origin": "../data/consolidated/dataset.json",
+   "sha256": "see dataset.json / Zenodo 10.5281/zenodo.21192405",
+   "note": "demand side"
+  }
+ ]
+}

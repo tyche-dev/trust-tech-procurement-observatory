@@ -1,0 +1,281 @@
+{
+ "domains": {
+  "AI": 1505,
+  "PKI": 1727,
+  "eIDAS": 1119,
+  "PQC": 50
+ },
+ "RQ1_quantum_trust_cliff": {
+  "pqc_procurement_matched": 50,
+  "pqc_procurement_confirmed": 24,
+  "quantum_vulnerable_trust_procurement_PKI_plus_eIDAS": 2846,
+  "cliff_ratio_matched": 56.9,
+  "cliff_ratio_confirmed": 118.6,
+  "rqscd_installed_remote_qscd_services": 114,
+  "rqscd_countries": 10,
+  "us_value_pqc_usd": 6269846,
+  "us_value_pki_usd": 566664128,
+  "us_value_ratio_pki_to_pqc": 90.4,
+  "reading": "The EU procures the quantum-vulnerable trust layer (PKI+eIDAS) at this multiple of its quantum-safe replacement, while operating a datable installed base of remote qualified signature/seal services that all run on today's public-key crypto."
+ },
+ "RQ2_identity_trust_deserts": {
+  "join": "country ISO-2, exact tier",
+  "per_country": [
+   {
+    "country": "DE",
+    "eidas_procurement_demand": 218,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "PL",
+    "eidas_procurement_demand": 123,
+    "rqscd_services_supply": 6,
+    "rqscd_tsps": 2
+   },
+   {
+    "country": "NO",
+    "eidas_procurement_demand": 106,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "NL",
+    "eidas_procurement_demand": 75,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "FR",
+    "eidas_procurement_demand": 67,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "CZ",
+    "eidas_procurement_demand": 63,
+    "rqscd_services_supply": 5,
+    "rqscd_tsps": 3
+   },
+   {
+    "country": "ES",
+    "eidas_procurement_demand": 60,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "BE",
+    "eidas_procurement_demand": 50,
+    "rqscd_services_supply": 3,
+    "rqscd_tsps": 1
+   },
+   {
+    "country": "FI",
+    "eidas_procurement_demand": 36,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "ET",
+    "eidas_procurement_demand": 27,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "SE",
+    "eidas_procurement_demand": 26,
+    "rqscd_services_supply": 2,
+    "rqscd_tsps": 1
+   },
+   {
+    "country": "PK",
+    "eidas_procurement_demand": 23,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "LT",
+    "eidas_procurement_demand": 22,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "IE",
+    "eidas_procurement_demand": 18,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "RO",
+    "eidas_procurement_demand": 16,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "IT",
+    "eidas_procurement_demand": 15,
+    "rqscd_services_supply": 78,
+    "rqscd_tsps": 16
+   },
+   {
+    "country": "GR",
+    "eidas_procurement_demand": 9,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "MT",
+    "eidas_procurement_demand": 9,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "HU",
+    "eidas_procurement_demand": 6,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "LU",
+    "eidas_procurement_demand": 6,
+    "rqscd_services_supply": 2,
+    "rqscd_tsps": 1
+   },
+   {
+    "country": "SK",
+    "eidas_procurement_demand": 6,
+    "rqscd_services_supply": 3,
+    "rqscd_tsps": 2
+   },
+   {
+    "country": "AT",
+    "eidas_procurement_demand": 5,
+    "rqscd_services_supply": 9,
+    "rqscd_tsps": 5
+   },
+   {
+    "country": "CN",
+    "eidas_procurement_demand": 3,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "DK",
+    "eidas_procurement_demand": 3,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "BD",
+    "eidas_procurement_demand": 2,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "LV",
+    "eidas_procurement_demand": 2,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "GB",
+    "eidas_procurement_demand": 1,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "IN",
+    "eidas_procurement_demand": 1,
+    "rqscd_services_supply": 0,
+    "rqscd_tsps": 0
+   },
+   {
+    "country": "EE",
+    "eidas_procurement_demand": 0,
+    "rqscd_services_supply": 1,
+    "rqscd_tsps": 1
+   },
+   {
+    "country": "SI",
+    "eidas_procurement_demand": 0,
+    "rqscd_services_supply": 5,
+    "rqscd_tsps": 3
+   }
+  ],
+  "trust_deserts_demand_ge3_supply0": [
+   "CN",
+   "DE",
+   "DK",
+   "ES",
+   "ET",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LT",
+   "MT",
+   "NL",
+   "NO",
+   "PK",
+   "RO"
+  ],
+  "trust_surpluses_supply_ge5_demand0": [
+   "SI"
+  ],
+  "reading": "Deserts procure digital identity but host no domestic remote-QSCD supply (cross-border dependence); surpluses host supply the domestic demand signal does not yet call on."
+ },
+ "RQ3_demand_risk_alignment": {
+  "join": "jurisdiction ISO-2, exact tier",
+  "countries_matched": 21,
+  "spearman_rho_demand_vs_incidents": -0.129,
+  "top_by_ai_procurement": [
+   "DE",
+   "FR",
+   "NO",
+   "BE",
+   "RO",
+   "PL",
+   "IN",
+   "IE",
+   "PK",
+   "GR"
+  ],
+  "top_by_incidents": [
+   "CN",
+   "IN",
+   "ES",
+   "IT",
+   "FR",
+   "DE",
+   "NL",
+   "BR",
+   "DK",
+   "AT"
+  ],
+  "quadrant_sample": {
+   "DE": "high-demand/high-risk",
+   "FR": "high-demand/high-risk",
+   "IN": "high-demand/high-risk",
+   "BE": "high-demand/low-risk",
+   "NO": "high-demand/low-risk",
+   "IT": "low-demand/high-risk",
+   "PL": "high-demand/low-risk",
+   "RO": "high-demand/low-risk",
+   "CN": "low-demand/high-risk",
+   "ES": "low-demand/high-risk",
+   "IE": "high-demand/low-risk",
+   "PK": "high-demand/low-risk"
+  },
+  "reading": "Positive rho = governments buy AI where incidents concentrate (procurement as an exposure leading indicator); near-zero = demand and harm are decoupled."
+ },
+ "RQ4_assurance_gap": {
+  "crypto_layer_assurance_ratio_PQC_over_PKIeIDAS": 0.0176,
+  "crypto_layer_confirmed": 0.0084,
+  "ai_layer_assurance_keyword_share": 0.0372,
+  "ai_assurance_records": 56,
+  "ai_total": 1505,
+  "reading": "Assurance ratio = the assured/secured version as a share of the base technology. The crypto layer's ratio (PQC vs the trust base it protects) is the starkest under-buy."
+ },
+ "provenance": "sources/PROVENANCE.json; link-not-fuse; procurement = Zenodo 10.5281/zenodo.21192405"
+}
