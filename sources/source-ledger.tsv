@@ -1,0 +1,12 @@
+region	name	url	access	domain_filter	ocds	format	licence	verified_http	verified_date
+EU	TED API v3 notices/search	https://api.ted.europa.eu/v3/notices/search	POST JSON, no auth	classification-cpv=<8-digit>	no	JSON(eForms)	EU-PO-reuse	200	2026-07-02
+EU	OP-TED eForms-SDK (codelists)	https://github.com/OP-TED/eForms-SDK	bulk release (XSD+codelists)	CPV classification elements	no	XSD/XML	per-repo	200	2026-07-02
+EU	data.europa.eu Dataset Hub	https://data.europa.eu/api/hub/search/search	query, no auth (metadata only)	free-text discovery	no	JSON DCAT-AP	varies	200	2026-07-02
+UK	Contracts Finder OCDS Search	https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search	query+paging, no auth	cpv_codes=<code> (confirmed)	yes	OCDS 1.1 JSON	OGL-v3.0	200	2026-07-02
+UK	Find a Tender Service OCDS	https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages	date-window+paging, no auth	client-side on classification.id	yes	OCDS 1.1 JSON	OGL-v3.0	200	2026-07-02
+IE	data.gov.ie CKAN eTenders	https://data.gov.ie/api/3/action/package_search?q=etenders	bulk CSV/JSON, no auth	CPV columns (unconfirmed)	no	CKAN CSV/JSON	CC-BY-4.0	200	2026-07-02
+US	USAspending spending_by_award	https://api.usaspending.gov/api/v2/search/spending_by_award/	POST JSON, no auth	naics_codes + keywords	no	JSON	US-Public-Domain	200	2026-07-02
+US	FPDS-NG ATOM public feed	https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&templateName=1.5.3	query ATOM q=, no auth	PRODUCT_OR_SERVICE_CODE:<PSC>	no	ATOM XML	US-Public-Domain	200	2026-07-02
+Global	OCDS 1.1 release-schema	https://standard.open-contracting.org/1.1/en/release-schema.json	static fetch	n/a (validator backbone)	yes	JSON Schema	OCP-open	200	2026-07-02
+Global	Open Contracting Data registry	https://data.open-contracting.org/	web registry (phase-6 expansion)	n/a	yes	HTML	OCP-open	200	2026-07-02
+US-DROPPED	SAM.gov Opportunities public API	https://api.sam.gov/opportunities/v2/search	needs registered key	n/a	no	JSON	US-Public-Domain	404	2026-07-02

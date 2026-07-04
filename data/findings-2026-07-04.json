@@ -1,0 +1,29 @@
+{
+ "build": "2026-07-04",
+ "dataset_records": 4401,
+ "countries": 106,
+ "lead": "We publish the Trust-Tech Procurement Observatory, a live, provenance-verified dataset of what governments actually buy across artificial intelligence, post-quantum cryptography (PQC), public-key infrastructure (PKI), and eIDAS or digital-identity systems. The current release holds 4,401 unique procurement records spanning 106 countries, drawn from four public tender and award sources. The findings below report demand signals, meaning what buyers put out to tender or awarded, and should be read as a curated coverage sample rather than a complete population census.",
+ "paragraphs": [
+  {
+   "title": "Post-quantum cryptography is almost absent from procurement",
+   "html": "<p>PQC is the smallest domain in the dataset by a wide margin. Of 4,401 unique records, only 50 (1.14 percent) name post-quantum cryptography. The share is 3.03 percent in the United States (17 of 561 records) and 1.0 percent in the European Union (33 of 3,290 records), and 0 records in the World Bank global set (0 of 547). As policy context, NIST finalized the ML-KEM, ML-DSA and SLH-DSA standards (FIPS 203, 204 and 205) in August 2024, and the US NSA CNSA 2.0 suite sets migration deadlines across 2030 to 2033. The gap between that standards-and-mandate context and the observed procurement share is the single strongest signal in the dataset.</p>"
+  },
+  {
+   "title": "Buyers spend on security infrastructure far more than on AI",
+   "html": "<p>Across the whole dataset, AI accounts for 1,505 records while security-oriented procurement (PKI, PQC and eIDAS combined) accounts for 2,896. PKI alone is the largest single domain at 1,727 records, ahead of AI at 1,505 and eIDAS at 1,119. On the US award side, where dollar values are available, PKI-related procurement totals 566,664,128 USD against 154,331,410 USD for AI and 6,269,846 USD for PQC. The pattern that emerges is one of continued, heavy investment in identity and trust infrastructure alongside, and often exceeding, the newer AI spend.</p>"
+  },
+  {
+   "title": "Coverage is real but uneven, and the EU dominates it",
+   "html": "<p>The dataset is concentrated in the European Union, which supplies 3,290 of the 4,401 records, followed by the United States at 561 and the World Bank global set at 547, with the United Kingdom contributing 3. By source, TED provides 3,290 records, USAspending 561, World Bank 547 and UK Contracts Finder 3. Germany leads all countries with 886 records, ahead of Poland at 324 and France at 267. This concentration reflects source depth rather than a claim that these countries buy the most; the EU above-threshold tender data is the deepest and most complete lane, while the US and UK lanes are keyword-sparse.</p>"
+  },
+  {
+   "title": "Activity is recent and rising",
+   "html": "<p>Records cluster in the most recent years. The dataset holds 376 records dated 2022, 344 for 2023, 496 for 2024, 1,191 for 2025 and 886 for 2026 to date. The 2025 count is the largest in the series. We caution that year totals are shaped by when sources publish and by our collection window, so the rise should be read as a coverage-and-activity signal rather than a precise growth rate.</p>"
+  }
+ ],
+ "method_note": "How to read this: every figure above is a count or value from the observatory's consolidated analysis file, not an estimate or projection. Records are deduplicated tenders and awards from four public sources (TED for the EU, USAspending for the US, UK Contracts Finder, and World Bank contract awards for the global set), matched to the four domains by keyword. Because sources differ in depth, this is a curated coverage sample and not a population census: EU above-threshold procurement is near-complete, while US and UK coverage is keyword-sparse and undercounts. Domain totals can overlap where a single record touches more than one topic, and dollar values are available only for the US award lane. Treat the numbers as demand signals, meaning what buyers advertised or awarded, and treat cross-region comparisons as comparisons of visible procurement, not of total national spend.",
+ "article_title": "The Trust-Tech Procurement Observatory: a provenance-verified dataset of government demand for AI, post-quantum cryptography, PKI and digital identity",
+ "venue": "Primary target is Scientific Data (Nature) as a Data Descriptor, because the contribution is a reusable, provenance-verified dataset with a documented anti-fabrication construction and clear coverage caveats, which fits that journal's scope better than a short-format outlet. Data in Brief is a strong fast fallback if a lighter, dataset-only descriptor is preferred. If the PQC procurement gap is spun out as its own demand-signal finding rather than a pure dataset paper, a policy outlet such as Data and Policy would suit it, though note that venue already holds two live Tyche submissions and should not be over-loaded.",
+ "pqc_gap_headline": "Governments have finalized post-quantum standards and set 2030 to 2033 migration deadlines, yet PQC appears in just 50 of 4,401 procurement records (1.14 percent overall, 3.03 percent in the US, 1.0 percent in the EU), the clearest quantum-readiness demand gap in the dataset.",
+ "provenance": "Narrative drafted by analyst agents and adversarially verified: every figure re-checked against data/consolidated/analysis.json and re-computed against dataset.json (all reproduced exactly)."
+}

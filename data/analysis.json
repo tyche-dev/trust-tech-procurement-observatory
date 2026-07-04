@@ -1,0 +1,158 @@
+{
+ "generated_utc": "2026-07-04T11:32:01.644365+00:00",
+ "unique_records": 4401,
+ "by_domain": {
+  "AI": 1505,
+  "PKI": 1727,
+  "eIDAS": 1119,
+  "PQC": 50
+ },
+ "by_region": {
+  "EU": 3290,
+  "UK": 3,
+  "US": 561,
+  "Global": 547
+ },
+ "by_region_domain": {
+  "EU|AI": 1200,
+  "EU|PKI": 1094,
+  "EU|PQC": 33,
+  "EU|eIDAS": 963,
+  "Global|AI": 230,
+  "Global|PKI": 162,
+  "Global|eIDAS": 155,
+  "UK|AI": 2,
+  "UK|eIDAS": 1,
+  "US|AI": 73,
+  "US|PKI": 471,
+  "US|PQC": 17
+ },
+ "countries_covered": 106,
+ "top_countries": {
+  "DEU": 886,
+  "POL": 324,
+  "FRA": 267,
+  "NOR": 207,
+  "HRV": 187,
+  "CZE": 181,
+  "BEL": 137,
+  "ROU": 136,
+  "NLD": 118,
+  "ESP": 116,
+  "Bangladesh": 82,
+  "IRL": 74,
+  "HUN": 69,
+  "Pakistan": 69,
+  "FIN": 62,
+  "India": 62,
+  "CHE": 59,
+  "ITA": 52,
+  "LTU": 52,
+  "SVK": 48,
+  "AUT": 47,
+  "BGR": 45,
+  "Ethiopia": 41,
+  "GRC": 37,
+  "LUX": 34,
+  "SWE": 31,
+  "Somalia": 27,
+  "DNK": 19,
+  "MKD": 17,
+  "MLT": 17
+ },
+ "by_year": {
+  "2022": 376,
+  "2023": 344,
+  "2024": 496,
+  "2025": 1191,
+  "2026": 886
+ },
+ "by_source": {
+  "TED": 3290,
+  "UK-ContractsFinder": 3,
+  "USAspending": 561,
+  "WorldBank": 547
+ },
+ "pqc_gap": {
+  "overall": {
+   "count": 50,
+   "total": 4401,
+   "pct": 1.14
+  },
+  "US": {
+   "count": 17,
+   "total": 561,
+   "pct": 3.03
+  },
+  "EU": {
+   "count": 33,
+   "total": 3290,
+   "pct": 1.0
+  },
+  "Global": {
+   "count": 0,
+   "total": 547,
+   "pct": 0.0
+  },
+  "note": "NIST finalized ML-KEM/ML-DSA/SLH-DSA (FIPS 203/204/205) in Aug 2024; NSA CNSA 2.0 sets 2030-2033 migration deadlines. Compare that mandate to the observed PQC procurement share."
+ },
+ "ai_vs_security": {
+  "ai": 1505,
+  "security_pki_pqc_eidas": 2896
+ },
+ "top_buyers": {
+  "AI": {
+   "DAK-Gesundheit": 58,
+   "Department of Defense": 46,
+   "Junagadh Agricultural University": 23,
+   "European Commission, DG CNECT - Communications Networks, Content and Technology": 17,
+   "Benazir Income Support Programme": 16,
+   "Universitatea de Medicina si Farmacie \"Iuliu Hatieganu\" Cluj-Napoca": 15,
+   "Ministerstwo Sprawiedliwości": 15,
+   "National Agricultural Higher Education Project": 14,
+   "ΕΛΚΕ ΕΛΛΗΝΙΚΟΥ ΜΕΣΟΓΕΙΑΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ": 12,
+   "Helmholtz-Zentrum Berlin für Materialien und Energie GmbH (HZB)": 11
+  },
+  "PKI": {
+   "MINISTARSTVO UNUTARNJIH POSLOVA": 158,
+   "Department of Defense": 152,
+   "Department of Homeland Security": 51,
+   "Department of State": 41,
+   "General Services Administration": 39,
+   "Department of Veterans Affairs": 39,
+   "Central Medical Stores Depot": 30,
+   "Department of Justice": 29,
+   "Nuclear Regulatory Commission": 21,
+   "Bangladesh - Health Sector Development Program": 21
+  },
+  "PQC": {
+   "Centralny Ośrodek Informatyki": 8,
+   "Department of Defense": 8,
+   "Ministerie van Economische Zaken, Rijksdienst voor Ondernemend Nederland (RVO)": 4,
+   "Hrvatski geološki institut": 4,
+   "Narodowe Centrum Badań i Rozwoju": 4,
+   "Department of Commerce": 3,
+   "European Cybersecurity Industrial, Technology and Research Competence Centre": 2,
+   "Technische Universität Berlin": 2,
+   "Sovereign Tech Agency GmbH": 2,
+   "Rectorado de la Universidad Politécnica de Madrid": 2
+  },
+  "eIDAS": {
+   "European Patent Organisation": 92,
+   "European Patent Office (EPO)": 64,
+   "Møre og Romsdal Fylkeskommune": 63,
+   "Federal Republic of Somalia, Ministry of Finance, Office of the Director General": 26,
+   "Akademia Ignatianum w Krakowie": 20,
+   "Państwowy Fundusz Rehabilitacji Osób Niepełnosprawnych": 19,
+   "Prime Minster Office, National ID Program": 19,
+   "SYKEHUSINNKJØP HF": 17,
+   "Ministerstvo spravedlnosti": 16,
+   "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH": 11
+  }
+ },
+ "us_value_usd": {
+  "AI": 154331410,
+  "PKI": 566664128,
+  "PQC": 6269846
+ }
+}
