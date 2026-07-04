@@ -1,0 +1,8 @@
+# Data licence
+
+The DATASET (everything under data/, the consolidated corpus, and the published Zenodo
+deposit) is licensed CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/
+Source attribution: EU TED (EU Publications Office reuse), US USAspending (public domain),
+UK Contracts Finder / Find a Tender (Open Government Licence v3.0), World Bank (open).
+
+The SOFTWARE (everything under scripts/ and tests/) is licensed MIT — see LICENSE.
